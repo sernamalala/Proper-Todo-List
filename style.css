@@ -7,6 +7,7 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
+  background-color: rgba(255, 192, 203, 0.515);
 }
 .head{
   text-align: center;
@@ -31,7 +32,7 @@ body {
   text-align: center;
   font-size: 30px;
   margin-right: 20px;
-  background-color: rgba(128, 128, 128, 0.482);
+  background-color: rgba(255, 255, 255, 0.482);
   outline: none;
   border: none;
 
@@ -41,12 +42,24 @@ body {
 width: 100px;
 height: 50px;
 border: none;
-background-color: rgb(229, 64, 92);
+background-color: rgba(229, 64, 91, 0.282);
 font-size: 20px;
 }
 
 #add:hover{
 color: rgb(244, 239, 239);
-background-color: rgba(229, 64, 91, 0.795);
+background-color: rgba(219, 157, 167, 0.859);
 cursor: pointer;
+}
+
+.list-items li{
+  list-style: none;
+  width: 500px;
+  height: 50px;
+  font-size: 25px;
+  background-color: rgba(128, 128, 128, 0.252);
+  margin: 10px;
+  padding-top: 15px;
+  
+
 }
